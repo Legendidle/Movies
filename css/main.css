@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/alef-v21-latin-regular.woff2') format('woff2'),
+       url('../fonts/alef-v21-latin-regular.woff') format('woff'); 
+}
+*{
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+}
+body{
+  background: rgb(86,54,110);
+background: linear-gradient(90deg, rgba(86,54,110,0.8463760504201681) 100%, rgba(29,253,198,1) 100%, rgba(252,176,69,1) 100%);
+}
+.title{
+  font-size: 60px;
+}
+.card-item {
+  width: 25rem;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,198,1) 50%, rgba(252,176,69,1) 100%);
+  box-shadow: -9px -12px 22px 2px rgba(110,38,38,0.76);
+-webkit-box-shadow: -9px -12px 22px 2px rgba(110,38,38,0.76);
+-moz-box-shadow: -9px -12px 22px 2px rgba(110,38,38,0.76);
+transition: 0.3s ease;
+}
+.card-item:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;  
+}
+.card-rating{
+  color: rgb(255, 255, 6);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <main>
+    <section id="section">
+      <div class="container">
+        <h1 class="title h3 text-center my-3 mb-5 text-primary">
+          Movies
+        </h1>
+
+        <ul class="js-movie-list list-unstyled d-flex flex-wrap justify-content-around">
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <template id="template-element">
+    <li class="card mb-5 text-center card-item">
+      <img class="card-img-top card-img" src="" alt="" width="275" height="200">
+      <div class="card-body">
+        <h2 class="h5 card-title mb-3">
+          Card Title
+        </h2>
+        <h3 class="h6 card-full-title mb-3">
+          Card Fulltitle
+        </h3>
+        <p class="card-movie-year mb-3">
+          Movie Year
+        </p>
+        <p class="card-catigories mb-3">
+          Movie Catigories
+        </p>
+        <p class="card-text mt-3 mb-3">
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </p>
+        <p class="card-rating mb-3">
+          Movie rating
+        </p>
+        <p class="card-ytid mb-0 text-success">
+          Movie ytid
+        </p>
+      </div>
+    </li>
+  </template>
+
+  <script src="./js/movies.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
